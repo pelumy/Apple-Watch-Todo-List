@@ -9,22 +9,28 @@ import WatchKit
 import Foundation
 
 class InterfaceController: WKInterfaceController {
-    @IBOutlet var myButton: WKInterfaceButton!
+    @IBOutlet var myTable: WKInterfaceTable!
 
     override func awake(withContext context: Any?) {
-        // Configure interface objects here.
+        let fruits = ["Apples", "Oranges", "Cherries", "Mangos", "Berries"]
+        myTable.setNumberOfRows(fruits.count, withRowType: "cell")
+        var x = 0
+        for fruit in fruits {
+            let row = myTable.rowController(at: x) as? RowController
+            row?.myLabel.setText(fruit)
+            x += 1
+        }
+        
     }
     
     override func willActivate() {
-        // This method is called when watch view controller is about to be visible to user
+        
     }
     
     override func didDeactivate() {
-        // This method is called when watch view controller is no longer visible
+    
     }
     
-    @IBAction func buttonTapped() {
-        myButton.setTitle("Tapped")
-    }
+
 
 }

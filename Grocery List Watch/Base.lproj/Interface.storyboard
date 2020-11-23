@@ -11,14 +11,23 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Grocery_List_Watch" customModuleProvider="target">
                     <items>
-                        <button width="1" alignment="left" title="Tap Me" id="K8B-cM-7nv">
-                            <connections>
-                                <action selector="buttonTapped" destination="AgC-eL-Hgc" id="QEB-h9-i4c"/>
-                            </connections>
-                        </button>
+                        <table alignment="left" id="vYz-EC-7ug">
+                            <items>
+                                <tableRow identifier="cell" selectable="NO" id="bj3-hR-Rz0" customClass="RowController" customModule="Grocery_List_Watch_Extension">
+                                    <group key="rootItem" width="1" alignment="left" layout="vertical" id="kBI-Gj-mE3">
+                                        <items>
+                                            <label width="136" height="28" alignment="left" text="Label" id="qYb-J8-Vjx"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="myLabel" destination="qYb-J8-Vjx" id="FB5-gk-gMX"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
                     </items>
                     <connections>
-                        <outlet property="myButton" destination="K8B-cM-7nv" id="raq-gi-KjG"/>
+                        <outlet property="myTable" destination="vYz-EC-7ug" id="2cd-vh-Xiw"/>
                     </connections>
                 </controller>
             </objects>
