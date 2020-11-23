@@ -11,20 +11,41 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Grocery_List_Watch" customModuleProvider="target">
                     <items>
-                        <button width="1" alignment="left" title="Tap Me" id="MIG-Dy-6xj">
+                        <button width="1" alignment="left" title="Button1" id="MIG-Dy-6xj">
                             <connections>
-                                <action selector="buttonTapped" destination="AgC-eL-Hgc" id="3F8-yE-A3w"/>
+                                <action selector="button1Tapped" destination="AgC-eL-Hgc" id="If5-tU-yXz"/>
                             </connections>
                         </button>
-                        <label width="136" height="101" alignment="left" text="Label" numberOfLines="0" id="0wS-UL-C0a"/>
+                        <button width="1" alignment="left" title="Button2" id="Obh-QE-LH0">
+                            <connections>
+                                <action selector="button2Tapped" destination="AgC-eL-Hgc" id="taN-ao-CdW"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Button3" id="04J-9Q-sNp">
+                            <connections>
+                                <action selector="button3Tapped" destination="AgC-eL-Hgc" id="esN-7X-mXc"/>
+                            </connections>
+                        </button>
                     </items>
                     <connections>
-                        <outlet property="myButton" destination="MIG-Dy-6xj" id="Lzg-8z-PFg"/>
-                        <outlet property="textLabel" destination="0wS-UL-C0a" id="xQi-1w-tOZ"/>
+                        <outlet property="button1" destination="MIG-Dy-6xj" id="NmG-a6-Nc7"/>
+                        <outlet property="button2" destination="Obh-QE-LH0" id="B7w-Ru-hpe"/>
+                        <outlet property="button3" destination="04J-9Q-sNp" id="V8V-dE-IfD"/>
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="220" y="345"/>
+            <point key="canvasLocation" x="181" y="46"/>
+        </scene>
+        <!--first-->
+        <scene sceneID="9fU-8V-n2z">
+            <objects>
+                <controller identifier="first" id="oRv-O4-8xv">
+                    <items>
+                        <label width="133" height="43" alignment="left" text="First" id="vKM-VF-cQR"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="392" y="51"/>
         </scene>
         <!--Static Notification Interface Controller-->
         <scene sceneID="AEw-b0-oYE">
@@ -55,7 +76,29 @@
             <objects>
                 <controller id="eXb-UN-Cd0" customClass="NotificationController" customModule="Grocery_List_Watch" customModuleProvider="target"/>
             </objects>
-            <point key="canvasLocation" x="468" y="345"/>
+            <point key="canvasLocation" x="273" y="507"/>
+        </scene>
+        <!--second-->
+        <scene sceneID="TXC-Ws-UEo">
+            <objects>
+                <controller identifier="second" id="KR4-7y-cbI">
+                    <items>
+                        <label width="133" height="43" alignment="left" text="Second" id="Aij-MG-sjC"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="598" y="51"/>
+        </scene>
+        <!--third-->
+        <scene sceneID="WDL-Js-Ktf">
+            <objects>
+                <controller identifier="third" id="aF1-nX-3rS">
+                    <items>
+                        <label width="133" height="43" alignment="left" text="Third" id="Xpb-dj-qxY"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="417" y="326"/>
         </scene>
     </scenes>
 </document>
