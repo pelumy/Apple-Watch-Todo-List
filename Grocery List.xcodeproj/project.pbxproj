@@ -23,6 +23,7 @@
 		0455C7D4256B966400883CC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0455C7D3256B966400883CC4 /* Assets.xcassets */; };
 		0455C7D9256B966400883CC4 /* Grocery List Watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 0455C7BA256B966200883CC4 /* Grocery List Watch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		0455C7E6256BA1D300883CC4 /* RowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0455C7E5256BA1D300883CC4 /* RowController.swift */; };
+		0455C7EB256BD37900883CC4 /* SaveItemInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0455C7EA256BD37900883CC4 /* SaveItemInterfaceController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +90,7 @@
 		0455C7D5256B966400883CC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0455C7D6256B966400883CC4 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		0455C7E5256BA1D300883CC4 /* RowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowController.swift; sourceTree = "<group>"; };
+		0455C7EA256BD37900883CC4 /* SaveItemInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveItemInterfaceController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				0455C7CB256B966300883CC4 /* InterfaceController.swift */,
+				0455C7EA256BD37900883CC4 /* SaveItemInterfaceController.swift */,
 				0455C7CD256B966300883CC4 /* ExtensionDelegate.swift */,
 				0455C7CF256B966300883CC4 /* NotificationController.swift */,
 				0455C7D1256B966300883CC4 /* ComplicationController.swift */,
@@ -310,6 +313,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0455C7E6256BA1D300883CC4 /* RowController.swift in Sources */,
+				0455C7EB256BD37900883CC4 /* SaveItemInterfaceController.swift in Sources */,
 				0455C7D0256B966300883CC4 /* NotificationController.swift in Sources */,
 				0455C7D2256B966300883CC4 /* ComplicationController.swift in Sources */,
 				0455C7CE256B966300883CC4 /* ExtensionDelegate.swift in Sources */,

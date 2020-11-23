@@ -9,6 +9,6 @@ import UIKit
 import WatchKit
 
 class RowController: NSObject {
-    @IBOutlet var myLabel: WKInterfaceLabel!
+    @IBOutlet var itemLabel: WKInterfaceLabel!
 
 }
