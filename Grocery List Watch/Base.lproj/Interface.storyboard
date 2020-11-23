@@ -11,23 +11,16 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Grocery_List_Watch" customModuleProvider="target">
                     <items>
-                        <table alignment="left" id="vYz-EC-7ug">
-                            <items>
-                                <tableRow identifier="cell" selectable="NO" id="bj3-hR-Rz0" customClass="RowController" customModule="Grocery_List_Watch_Extension">
-                                    <group key="rootItem" width="1" alignment="left" layout="vertical" id="kBI-Gj-mE3">
-                                        <items>
-                                            <label width="136" height="28" alignment="left" text="Label" id="qYb-J8-Vjx"/>
-                                        </items>
-                                    </group>
-                                    <connections>
-                                        <outlet property="myLabel" destination="qYb-J8-Vjx" id="FB5-gk-gMX"/>
-                                    </connections>
-                                </tableRow>
-                            </items>
-                        </table>
+                        <button width="1" alignment="left" title="Tap Me" id="MIG-Dy-6xj">
+                            <connections>
+                                <action selector="buttonTapped" destination="AgC-eL-Hgc" id="3F8-yE-A3w"/>
+                            </connections>
+                        </button>
+                        <label width="136" height="101" alignment="left" text="Label" numberOfLines="0" id="0wS-UL-C0a"/>
                     </items>
                     <connections>
-                        <outlet property="myTable" destination="vYz-EC-7ug" id="2cd-vh-Xiw"/>
+                        <outlet property="myButton" destination="MIG-Dy-6xj" id="Lzg-8z-PFg"/>
+                        <outlet property="textLabel" destination="0wS-UL-C0a" id="xQi-1w-tOZ"/>
                     </connections>
                 </controller>
             </objects>
