@@ -19,10 +19,11 @@
                         <table alignment="left" id="oLZ-7k-UEg">
                             <items>
                                 <tableRow identifier="cell" selectable="NO" id="l8p-g6-JeV" customClass="RowController" customModule="Grocery_List_Watch_Extension">
-                                    <group key="rootItem" width="1" alignment="left" layout="vertical" id="L1G-yh-dtU">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" animationDuration="7" layout="vertical" id="L1G-yh-dtU">
                                         <items>
-                                            <label alignment="left" verticalAlignment="center" text="Label" numberOfLines="0" id="tGx-7X-9K2"/>
+                                            <label width="1" alignment="left" verticalAlignment="center" text="Label" numberOfLines="0" id="tGx-7X-9K2"/>
                                         </items>
+                                        <edgeInsets key="margins" left="5" right="5" top="5" bottom="5"/>
                                     </group>
                                     <connections>
                                         <outlet property="itemLabel" destination="tGx-7X-9K2" id="X6E-jo-qUG"/>
